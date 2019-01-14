@@ -5,7 +5,7 @@
 <!ENTITY author    "Bergware">
 <!ENTITY version   "2018.08.29a">
 <!ENTITY launch    "Settings/StatSettings">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/bergware/dynamix/master/unRAIDv6/&name;.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/ronaldreagan4prez/dynamix/master/unRAIDv6/&name;.plg">
 <!ENTITY source    "/boot/config/plugins/&name;/&name;">
 <!ENTITY MD5       "bd5395ac71344b7d925e5d4110324ee6">
 ]>
@@ -162,7 +162,7 @@ fi
 
 <!-- SOURCE PACKAGE -->
 <FILE Name="&source;.txz" Run="upgradepkg --install-new --reinstall">
-<URL>https://raw.githubusercontent.com/bergware/dynamix/master/archive/&name;.txz</URL>
+<URL>https://raw.githubusercontent.com/ronaldreagan4prez/dynamix/master/archive/&name;.txz</URL>
 <MD5>&MD5;</MD5>
 </FILE>
 
